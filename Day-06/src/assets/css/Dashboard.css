@@ -1,0 +1,121 @@
+.dashboard-container {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: grey;
+    color: black;
+    display: flex;
+    height: 100vh;
+}
+
+.scroll-container {
+  max-height: 80vh; 
+  overflow-y: auto; 
+}
+
+
+.sidebar {
+    width: 100px;
+    background-color: #333;
+    color: grey;
+    padding: 20px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    background: url("../images/users.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 23px;
+    left: 1360px;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    
+}
+
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.product-title {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+
+.product-description {
+    margin: 5px 0;
+}
+
+
+.product-price {
+    color: #e44d26;
+    font-weight: bold;
+    margin: 5px 0;
+}
