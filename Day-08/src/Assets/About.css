@@ -1,0 +1,19 @@
+.about {
+    background-color: #ffffff; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff; 
+    text-align: top;
+    padding: 180px 100px;
+    
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .about p{
+    color: black;
+  }
+  
