@@ -1,0 +1,5 @@
+com\example\demo\entity\SignupEntity.class
+com\example\demo\repository\SignupRepository.class
+com\example\demo\service\SignupService.class
+com\example\demo\Controller\SignupController.class
+com\example\demo\VirtualjobfairApplication.class
